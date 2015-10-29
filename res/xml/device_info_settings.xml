@@ -19,11 +19,13 @@
         android:title="@string/about_settings">
 
         <!-- eucos version -->
-        <Preference android:key="eucos_version"
+        <PreferenceScreen android:key="eucos_version"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/eucos_version"
                 android:summary="@string/eucos_version_default"
-		android:icon="@drawable/eucos_logo" />
+		android:icon="@drawable/eucos_logo"
+		android:fragment="com.android.settings.eucos.EOSAbout">
+	</PreferenceScreen>
 
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
