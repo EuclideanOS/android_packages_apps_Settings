@@ -190,6 +190,11 @@
     <!-- Sound settings, charging sounds label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Silent</string>
 
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Reset stats</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
 <!-- Keyboard and Input methods  -->
     <string name="attention">Attention</string>
     <string name="title_keyboard_input">Advanced options</string>
