@@ -181,12 +181,18 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
                 final long volumeTotalBytes = PrivateStorageInfo.getTotalSize(vol,
                         sTotalInternalStorage);
                 final int color = colorPrivate[privateCount++ % colorPrivate.length];
+                boolean isInternal = VolumeInfo.ID_PRIVATE_INTERNAL.equals(vol.getId());
+                long size = isInternal ? sTotalInternalStorage : vol.getPath().getTotalSpace();
                 mInternalCategory.addPreference(
-                        new StorageVolumePreference(context, vol, color, volumeTotalBytes));
+                        new StorageVolumePreference(context, vol, color, size));
                 if (vol.isMountedReadable()) {
                     final File path = vol.getPath();
-                    privateUsedBytes += (volumeTotalBytes - path.getFreeSpace());
-                    privateTotalBytes += volumeTotalBytes;
+                    privateUsedBytes += path.getTotalSpace() - path.getFreeSpace();
+                    if (isInternal && sTotalInternalStorage > 0) {
+                        privateTotalBytes += sTotalInternalStorage;
+                    } else {
+                        privateTotalBytes += path.getTotalSpace();
+                    }
                 }
             } else if (vol.getType() == VolumeInfo.TYPE_PUBLIC) {
                 mExternalCategory.addPreference(
