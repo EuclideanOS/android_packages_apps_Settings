@@ -20,4 +20,8 @@
         <attr name="defaultValuePure" format="float" />
         <attr name="digits" format="integer" />
     </declare-styleable>
+
+    <!-- AOSPA Color engine -->
+    <dimen name="theme_preview_actionbar_size">15dp</dimen>
+    <dimen name="theme_color_margin_side">20dp</dimen>
 </resources>
