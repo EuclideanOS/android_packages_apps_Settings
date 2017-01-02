@@ -2715,7 +2715,7 @@
 
         <activity android:name="Settings$PureNexusSettingsActivity"
             android:label="@string/pure_settings_title"
-            android:icon="@drawable/ic_settings_purenexus"
+            android:icon="@drawable/ic_settings_system_settings"
             android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
