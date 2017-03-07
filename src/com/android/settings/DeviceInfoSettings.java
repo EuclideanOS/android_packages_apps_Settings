@@ -68,7 +68,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_EQUIPMENT_ID = "fcc_equipment_id";
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
-    private static final String KEY_PURE_VERSION = "pure_version";
+    private static final String KEY_EUCOS_VERSION = "eucos_version";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
 
     // CVE-2016-8655: Linux AF_PACKET race condition
@@ -137,8 +137,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(DeviceInfoUtils.getFormattedKernelVersion());
-        setValueSummary(KEY_PURE_VERSION, "ro.pure.version");
-        findPreference(KEY_PURE_VERSION).setEnabled(true);
+        setValueSummary(KEY_EUCOS_VERSION, "ro.eucos.version");
+        findPreference(KEY_EUCOS_VERSION).setEnabled(true);
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);

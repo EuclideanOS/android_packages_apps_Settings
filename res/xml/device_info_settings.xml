@@ -18,6 +18,13 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
 
+        <!-- eucos version -->
+        <Preference android:key="eucos_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/eucos_version"
+                android:summary="@string/eucos_version_default"
+		android:icon="@drawable/eucos_logo" />
+
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title"
@@ -111,17 +118,6 @@
                 android:selectable="false"
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true"/>
-
-        <!-- Pure version -->
-        <com.android.settings.DividerPreference
-                android:key="pure_version"
-                android:enabled="false"
-                android:shouldDisableView="false"
-                android:selectable="false"
-                android:title="@string/pure_version"
-                android:summary="@string/pure_version_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 

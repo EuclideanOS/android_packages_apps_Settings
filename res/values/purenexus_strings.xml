@@ -121,9 +121,9 @@
     <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
 
 <!-- Device Info Settings -->
-    <!-- Pure version -->
-    <string name="pure_version">PureNexus version</string>
-    <string name="pure_version_default">Unknown</string>
+    <!-- EuclideanOS version -->
+    <string name="eucos_version">Euclidean OS version</string>
+    <string name="eucos_version_default">Unknown</string>
     <!-- Vendor version -->
     <string name="vendor_version">Vendor version</string>
     <string name="vendor_version_default">Unknown</string>
