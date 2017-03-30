@@ -71,9 +71,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_EUCOS_VERSION = "eucos_version";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
 
+    // CVE-2017-7184: xfrm_replay_verify_len
     // CVE-2016-8655: Linux AF_PACKET race condition
     // AndroidID-30403356: external/llvm: -fstack-protector-strong slot ordering broken with alloca/VLAs
-    private static final String SECURITY_PATCH_EXTRA = "CVE-2016-8655\nAndroidID-30403356";
+    private static final String SECURITY_PATCH_EXTRA = "CVE-2017-7184\nCVE-2016-8655\nAndroidID-30403356";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
