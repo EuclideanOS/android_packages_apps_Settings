@@ -26,11 +26,11 @@
   <string name="menu_hide_substratum_icons">アイコンオーバーレイを表示しない</string>
   <!-- App Ops Settings -->
   <string name="app_ops_cat_location">Location</string>
-  <string name="app_ops_cat_personal">Personal</string>
+  <string name="app_ops_cat_personal">個人情報</string>
   <string name="app_ops_cat_messaging">Messaging</string>
-  <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Device</string>
-  <string name="app_ops_access_camera">camera</string>
+  <string name="app_ops_cat_media">メディア</string>
+  <string name="app_ops_cat_device">端末</string>
+  <string name="app_ops_access_camera">カメラ</string>
   <string name="app_ops_access_location">location</string>
   <string name="app_ops_access_notifications">notifications</string>
   <string name="app_ops_activate_vpn">VPN</string>
@@ -41,7 +41,7 @@
   <string name="app_ops_delete_sms">delete SMS</string>
   <string name="app_ops_draw_on_top">draw on top</string>
   <string name="app_ops_get_usage_stats">get usage stats</string>
-  <string name="app_ops_keep_device_awake">keep awake</string>
+  <string name="app_ops_keep_device_awake">スリープモードにしない</string>
   <string name="app_ops_make_phone_call">make call</string>
   <string name="app_ops_modify_calendar">update calendar</string>
   <string name="app_ops_modify_call_log">update call log</string>
