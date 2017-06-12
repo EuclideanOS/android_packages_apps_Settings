@@ -37,8 +37,8 @@
   <string name="app_ops_auto_start">Autostart</string>
   <string name="app_ops_delete_call_log">Anrufprotokoll löschen</string>
   <string name="app_ops_delete_contacts">Kontakte löschen</string>
-  <string name="app_ops_delete_mms">Löschen von MMS-Nachrichten</string>
-  <string name="app_ops_delete_sms">Löschen von SMS-Nachrichten</string>
+  <string name="app_ops_delete_mms">MMS-Nachrichten löschen</string>
+  <string name="app_ops_delete_sms">SMS-Nachrichten löschen</string>
   <string name="app_ops_draw_on_top">Über anderen Apps einblenden</string>
   <string name="app_ops_get_usage_stats">zeige Nutzungsstatistiken</string>
   <string name="app_ops_keep_device_awake">Aktiv lassen</string>
@@ -49,7 +49,7 @@
   <string name="app_ops_modify_contacts">Kontakte aktualisieren</string>
   <string name="app_ops_modify_settings">Einstellungen aktualisieren</string>
   <string name="app_ops_mute_unmute_microphone">Mikrofon ein-/ausschalten</string>
-  <string name="app_ops_play_audio">Töne abspielen</string>
+  <string name="app_ops_play_audio">Audio abspielen</string>
   <string name="app_ops_post_notification">Benachrichtigung zeigen</string>
   <string name="app_ops_project_media">Projekt-Medien</string>
   <string name="app_ops_read_calendar">Kalendereinträge lesen</string>
@@ -59,7 +59,7 @@
   <string name="app_ops_read_mms">MMS-Nachrichten lesen</string>
   <string name="app_ops_read_sms">SMS-Nachrichten lesen</string>
   <string name="app_ops_receive_sms">SMS-Nachrichten empfangen</string>
-  <string name="app_ops_record_audio">Ton aufnehmen</string>
+  <string name="app_ops_record_audio">Audio aufnehmen</string>
   <string name="app_ops_send_mms">MMS-Nachrichten senden</string>
   <string name="app_ops_send_sms">SMS-Nachrichten senden</string>
   <string name="app_ops_toast_window">Toast-Nachrichten</string>
@@ -90,6 +90,10 @@
   <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
   <string name="app_ops_get_accounts">Geräte-Konten</string>
   <string name="app_ops_run_in_background">im Hintergrund laufen</string>
+  <!-- Battery Saver Settings -->
+  <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">ROM-Steuerung</string>
@@ -162,6 +166,10 @@
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Um in und aus dem Selfie Modus in der Google Kamera zu wechseln, drehen sie das Gerät 2 mal schnell hintereinander wenn sie sich in der App befinden</string>
+  <!-- Language & Input -->
+  <!-- Fullscreen Keyboard -->
+  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
+  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
@@ -175,13 +183,21 @@
   <string name="volume_adjust_sounds_title">Ton bei Lautstärkeänderung</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Ton beim Aufladen</string>
-  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">Aktivieren</string>
-  <string name="power_notifications_enable_summary">Beim Anschließen oder Trennen des Ladegerätes einen Ton abspielen</string>
+  <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
+  <string name="power_notifications_conditions_title">Conditions</string>
+  <string name="power_notifications_conditions_none">None</string>
+  <string name="power_notifications_conditions_both">Connect and disconnect</string>
+  <string name="power_notifications_conditions_connect">Connect only</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrieren</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <string name="power_notifications_ringtone_title">Benachrichtigungston</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Stumm</string>
+  <!-- Sound settings, custom charging sound, setting check box label -->
+  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <!-- Menu label for reset the battery stats -->
+  <string name="menu_stats_reset">Reset stats</string>
+  <!-- Reset stats confirmation dialog's message -->
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

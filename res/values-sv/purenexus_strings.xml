@@ -25,20 +25,20 @@
   <string name="menu_show_substratum_icons">Visa ikonöverlägg</string>
   <string name="menu_hide_substratum_icons">Dölj ikonöverlägg</string>
   <!-- App Ops Settings -->
-  <string name="app_ops_cat_location">Location</string>
+  <string name="app_ops_cat_location">Plats</string>
   <string name="app_ops_cat_personal">Personal</string>
   <string name="app_ops_cat_messaging">Messaging</string>
   <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Device</string>
-  <string name="app_ops_access_camera">camera</string>
-  <string name="app_ops_access_location">location</string>
-  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_cat_device">Enhet</string>
+  <string name="app_ops_access_camera">kamera</string>
+  <string name="app_ops_access_location">plats</string>
+  <string name="app_ops_access_notifications">aviseringar</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">delete call log</string>
-  <string name="app_ops_delete_contacts">delete contacts</string>
-  <string name="app_ops_delete_mms">delete MMS</string>
-  <string name="app_ops_delete_sms">delete SMS</string>
+  <string name="app_ops_delete_call_log">radera samtalslogg</string>
+  <string name="app_ops_delete_contacts">radera kontakter</string>
+  <string name="app_ops_delete_mms">radera MMS</string>
+  <string name="app_ops_delete_sms">radera SMS</string>
   <string name="app_ops_draw_on_top">draw on top</string>
   <string name="app_ops_get_usage_stats">get usage stats</string>
   <string name="app_ops_keep_device_awake">keep awake</string>
@@ -49,7 +49,7 @@
   <string name="app_ops_modify_contacts">update contacts</string>
   <string name="app_ops_modify_settings">update settings</string>
   <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
-  <string name="app_ops_play_audio">play audio</string>
+  <string name="app_ops_play_audio">spela upp ljud</string>
   <string name="app_ops_post_notification">post notification</string>
   <string name="app_ops_project_media">project media</string>
   <string name="app_ops_read_calendar">read calendar</string>
@@ -71,13 +71,13 @@
   <string name="app_ops_use_media_volume">media volume</string>
   <string name="app_ops_use_notification_volume">notification volume</string>
   <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
+  <string name="app_ops_use_vibrate">haptisk återkoppling</string>
   <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMS</string>
-  <string name="app_ops_use_fingerprint">fingerprint</string>
-  <string name="app_ops_add_voicemail">voicemail</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
+  <string name="app_ops_write_mms">skriva MMS</string>
+  <string name="app_ops_write_sms">skriva SMS</string>
+  <string name="app_ops_use_fingerprint">fingeravtryck</string>
+  <string name="app_ops_add_voicemail">röstbrevlåda</string>
+  <string name="app_ops_read_phone_state">åtkomst till telefon-status</string>
   <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
   <string name="app_ops_change_wallpaper">change wallpaper</string>
   <string name="app_ops_assist_structure">assist structure</string>
@@ -90,6 +90,10 @@
   <string name="app_ops_turn_on_screen">turn screen on</string>
   <string name="app_ops_get_accounts">device accounts</string>
   <string name="app_ops_run_in_background">run in background</string>
+  <!-- Battery Saver Settings -->
+  <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">ROM kontroll</string>
@@ -131,8 +135,8 @@
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">Expanderat skrivbord</string>
   <string name="expanded_hide_nothing">Följ ingenting</string>
-  <string name="expanded_hide_status">Följ statusbaren</string>
-  <string name="expanded_hide_navigation">Dölj navigationsbaren</string>
+  <string name="expanded_hide_status">Dölj statusfältet</string>
+  <string name="expanded_hide_navigation">Dölj navigeringsfältet</string>
   <string name="expanded_hide_both">Dölj båda</string>
   <string name="expanded_nothing_to_show">För att lägga till anpassad appkonfiguration för expanderat läge så stäng av \"Aktiverad för alla\"</string>
   <string name="expanded_desktop_state">Expanderat läge</string>
@@ -162,6 +166,10 @@
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">För att byt till och från selfieläge i Google Kamera, vrid skärmen när du är i appen</string>
+  <!-- Language & Input -->
+  <!-- Fullscreen Keyboard -->
+  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
+  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Ökande volym</string>
@@ -175,13 +183,21 @@
   <string name="volume_adjust_sounds_title">Ljud för volymjustering</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Ljud vid laddning</string>
-  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">Aktivera</string>
-  <string name="power_notifications_enable_summary">Spela upp ljud när laddare ansluts eller avlägsnas</string>
+  <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
+  <string name="power_notifications_conditions_title">Conditions</string>
+  <string name="power_notifications_conditions_none">None</string>
+  <string name="power_notifications_conditions_both">Connect and disconnect</string>
+  <string name="power_notifications_conditions_connect">Connect only</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrera</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <string name="power_notifications_ringtone_title">Notifieringsljud</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Tyst</string>
+  <!-- Sound settings, custom charging sound, setting check box label -->
+  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <!-- Menu label for reset the battery stats -->
+  <string name="menu_stats_reset">Reset stats</string>
+  <!-- Reset stats confirmation dialog's message -->
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

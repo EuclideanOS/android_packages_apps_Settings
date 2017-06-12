@@ -90,6 +90,10 @@
   <string name="app_ops_turn_on_screen">включва екрана</string>
   <string name="app_ops_get_accounts">профили на устройството</string>
   <string name="app_ops_run_in_background">работи във фонов режим</string>
+  <!-- Battery Saver Settings -->
+  <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">Управление на ROM</string>
@@ -162,6 +166,10 @@
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">За да превключите към selfie режим и обратно в Google камера, завъртете ръка 2 пъти, когато сте в приложението</string>
+  <!-- Language & Input -->
+  <!-- Fullscreen Keyboard -->
+  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
+  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Усилващ се тон на звънене</string>
@@ -175,13 +183,21 @@
   <string name="volume_adjust_sounds_title">Звуци при регулиране силата на звука</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Звуци за зареждане</string>
-  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">Включване</string>
-  <string name="power_notifications_enable_summary">Пускане на звук при свързване или разкачане на зарядното устройство</string>
+  <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
+  <string name="power_notifications_conditions_title">Conditions</string>
+  <string name="power_notifications_conditions_none">None</string>
+  <string name="power_notifications_conditions_both">Connect and disconnect</string>
+  <string name="power_notifications_conditions_connect">Connect only</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Вибрация</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <string name="power_notifications_ringtone_title">Звук за известия</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Без звук</string>
+  <!-- Sound settings, custom charging sound, setting check box label -->
+  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <!-- Menu label for reset the battery stats -->
+  <string name="menu_stats_reset">Reset stats</string>
+  <!-- Reset stats confirmation dialog's message -->
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

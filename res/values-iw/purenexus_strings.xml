@@ -25,71 +25,75 @@
   <string name="menu_show_substratum_icons">הצג שכבות סמלים</string>
   <string name="menu_hide_substratum_icons">הסתר שכבות סמלים</string>
   <!-- App Ops Settings -->
-  <string name="app_ops_cat_location">Location</string>
-  <string name="app_ops_cat_personal">Personal</string>
-  <string name="app_ops_cat_messaging">Messaging</string>
-  <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Device</string>
-  <string name="app_ops_access_camera">camera</string>
-  <string name="app_ops_access_location">location</string>
-  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_cat_location">מיקום</string>
+  <string name="app_ops_cat_personal">אישי</string>
+  <string name="app_ops_cat_messaging">הודעות</string>
+  <string name="app_ops_cat_media">מדיה</string>
+  <string name="app_ops_cat_device">מכשיר</string>
+  <string name="app_ops_access_camera">מצלמה</string>
+  <string name="app_ops_access_location">מיקום</string>
+  <string name="app_ops_access_notifications">התראות</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">delete call log</string>
-  <string name="app_ops_delete_contacts">delete contacts</string>
-  <string name="app_ops_delete_mms">delete MMS</string>
-  <string name="app_ops_delete_sms">delete SMS</string>
+  <string name="app_ops_delete_call_log">מחק יומן שיחות</string>
+  <string name="app_ops_delete_contacts">מחק אנשי קשר</string>
+  <string name="app_ops_delete_mms">מחק הודעת מולטימדיה</string>
+  <string name="app_ops_delete_sms">מחק הודעה</string>
   <string name="app_ops_draw_on_top">draw on top</string>
-  <string name="app_ops_get_usage_stats">get usage stats</string>
-  <string name="app_ops_keep_device_awake">keep awake</string>
+  <string name="app_ops_get_usage_stats">קבל סטטיסטיקות שימוש</string>
+  <string name="app_ops_keep_device_awake">שמור במצב פעיל</string>
   <string name="app_ops_make_phone_call">make call</string>
   <string name="app_ops_modify_calendar">update calendar</string>
-  <string name="app_ops_modify_call_log">update call log</string>
+  <string name="app_ops_modify_call_log">עדכן את יומן השיחות</string>
   <string name="app_ops_modify_clipboard">modify clipboard</string>
   <string name="app_ops_modify_contacts">update contacts</string>
   <string name="app_ops_modify_settings">update settings</string>
   <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
-  <string name="app_ops_play_audio">play audio</string>
+  <string name="app_ops_play_audio">נגן שמע</string>
   <string name="app_ops_post_notification">post notification</string>
-  <string name="app_ops_project_media">project media</string>
+  <string name="app_ops_project_media">הקרן מדיה</string>
   <string name="app_ops_read_calendar">read calendar</string>
-  <string name="app_ops_read_call_log">read call log</string>
+  <string name="app_ops_read_call_log">קרא את יומן השיחות שלך</string>
   <string name="app_ops_read_clipboard">read clipboard</string>
-  <string name="app_ops_read_contacts">read contacts</string>
-  <string name="app_ops_read_mms">read MMS</string>
+  <string name="app_ops_read_contacts">קרא את אנשי הקשר שלך</string>
+  <string name="app_ops_read_mms">קרא MMS</string>
   <string name="app_ops_read_sms">read SMS</string>
-  <string name="app_ops_receive_sms">receive SMS</string>
-  <string name="app_ops_record_audio">record audio</string>
-  <string name="app_ops_send_mms">send MMS</string>
-  <string name="app_ops_send_sms">send SMS</string>
+  <string name="app_ops_receive_sms">קבלת SMS</string>
+  <string name="app_ops_record_audio">הקלטת שמע</string>
+  <string name="app_ops_send_mms">שלח MMS</string>
+  <string name="app_ops_send_sms">שלח SMS</string>
   <string name="app_ops_toast_window">toast messages</string>
-  <string name="app_ops_use_alarm_volume">alarm volume</string>
+  <string name="app_ops_use_alarm_volume">עוצמת שעון מעורר</string>
   <string name="app_ops_use_audio_focus">audio focus</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
+  <string name="app_ops_use_bluetooth_volume">עוצמת שמע בלוטוס</string>
+  <string name="app_ops_use_master_volume">עוצמת שמע ראשי</string>
+  <string name="app_ops_use_media_buttons">כפתורי מדיה</string>
+  <string name="app_ops_use_media_volume">עוצמת קול המדיה</string>
+  <string name="app_ops_use_notification_volume">עוצמת התראה</string>
+  <string name="app_ops_use_ring_volume">עוצמת צלצול</string>
   <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMS</string>
-  <string name="app_ops_use_fingerprint">fingerprint</string>
-  <string name="app_ops_add_voicemail">voicemail</string>
+  <string name="app_ops_use_voice_volume">עוצמת קול בשיחה</string>
+  <string name="app_ops_write_mms">כתוב MMS</string>
+  <string name="app_ops_write_sms">כתוב SMS</string>
+  <string name="app_ops_use_fingerprint">טביעת אצבע</string>
+  <string name="app_ops_add_voicemail">תא קולי</string>
   <string name="app_ops_read_phone_state">access phone state</string>
-  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-  <string name="app_ops_change_wallpaper">change wallpaper</string>
+  <string name="app_ops_scan_wifi">סרוק רשתות אלחוטיות</string>
+  <string name="app_ops_change_wallpaper">שינוי תמונת רקע</string>
   <string name="app_ops_assist_structure">assist structure</string>
-  <string name="app_ops_assist_screenshot">screenshot</string>
-  <string name="app_ops_use_body_sensors">body sensors</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
+  <string name="app_ops_assist_screenshot">צילום מסך</string>
+  <string name="app_ops_use_body_sensors">חיישני גוף</string>
+  <string name="app_ops_read_cell_broadcasts">שידורים סלולריים</string>
+  <string name="app_ops_mock_location">מיקום מדומה</string>
   <string name="app_ops_read_external_storage">read ext. stor.</string>
   <string name="app_ops_write_external_storage">write ext. stor.</string>
-  <string name="app_ops_turn_on_screen">turn screen on</string>
+  <string name="app_ops_turn_on_screen">הדלק מסך</string>
   <string name="app_ops_get_accounts">device accounts</string>
-  <string name="app_ops_run_in_background">run in background</string>
+  <string name="app_ops_run_in_background">הפעל ברקע</string>
+  <!-- Battery Saver Settings -->
+  <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">בקרת רום</string>
@@ -143,7 +147,7 @@
   <string name="expanded_desktop_title">אפשרויות שולחן עבודה מורחב</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">בהירות</string>
-  <string name="night_brightness_value_title">Night light brightness</string>
+  <string name="night_brightness_value_title">בהירות במצב תאורת לילה</string>
   <string name="night_brightness_text">When night light is enabled automatically set the desired brightness. The default brightness is set to low brightness</string>
   <string name="night_bright_disabled">לא פעיל</string>
   <string name="night_bright_min">בהירות מינימלית</string>
@@ -153,35 +157,47 @@
   <string name="display_rotation_title">סיבוב אוטומטי</string>
   <string name="display_rotation_disabled">לא פעיל</string>
   <string name="display_rotation_unit">מעלות</string>
-  <string name="display_lockscreen_rotation_title">Rotate lock screen</string>
-  <string name="display_rotation_category_title">Rotation modes</string>
-  <string name="display_rotation_0_title">0 degrees</string>
-  <string name="display_rotation_90_title">90 degrees</string>
-  <string name="display_rotation_180_title">180 degrees</string>
-  <string name="display_rotation_270_title">270 degrees</string>
+  <string name="display_lockscreen_rotation_title">סובב מסך נעילה</string>
+  <string name="display_rotation_category_title">מצבי סיבוב</string>
+  <string name="display_rotation_0_title">0 מעלות</string>
+  <string name="display_rotation_90_title">90 מעלות</string>
+  <string name="display_rotation_180_title">180 מעלות</string>
+  <string name="display_rotation_270_title">270 מעלות</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app</string>
+  <!-- Language & Input -->
+  <!-- Fullscreen Keyboard -->
+  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
+  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
-  <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-  <string name="increasing_ring_min_volume_title">Start volume</string>
+  <string name="increasing_ring_volume_option_title">עוצמת צלצול מתגברת</string>
+  <string name="increasing_ring_min_volume_title">עוצמת התחלה</string>
   <string name="increasing_ring_ramp_up_time_title">Ramp up time</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Link ring and notification volume</string>
-  <string name="notification_volume_option_title">Notification volume</string>
-  <string name="ring_notification_volume_option_title">Ring and notification volume</string>
+  <string name="link_volume_option_title">השווה ווליום של צלצול והתראות</string>
+  <string name="notification_volume_option_title">עוצמת התראה</string>
+  <string name="ring_notification_volume_option_title">עוצמת צלצול והתראות</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+  <string name="volume_adjust_sounds_title">צליל שינוי עוצמת שמע</string>
   <!-- Category title for Charging sounds -->
-  <string name="power_notifications_category_title">Charging sounds</string>
-  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">Enable</string>
-  <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger</string>
+  <string name="power_notifications_category_title">צלילי טעינה</string>
+  <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
+  <string name="power_notifications_conditions_title">Conditions</string>
+  <string name="power_notifications_conditions_none">None</string>
+  <string name="power_notifications_conditions_both">Connect and disconnect</string>
+  <string name="power_notifications_conditions_connect">Connect only</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">רטט</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
-  <string name="power_notifications_ringtone_title">Notification sound</string>
+  <string name="power_notifications_ringtone_title">צליל התראה</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">שקט</string>
+  <!-- Sound settings, custom charging sound, setting check box label -->
+  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <!-- Menu label for reset the battery stats -->
+  <string name="menu_stats_reset">Reset stats</string>
+  <!-- Reset stats confirmation dialog's message -->
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

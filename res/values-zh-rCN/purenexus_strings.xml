@@ -90,6 +90,10 @@
   <string name="app_ops_turn_on_screen">亮屏</string>
   <string name="app_ops_get_accounts">设备帐户</string>
   <string name="app_ops_run_in_background">在后台运行</string>
+  <!-- Battery Saver Settings -->
+  <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">Rom 控制</string>
@@ -162,6 +166,10 @@
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">只需在 Google 相机应用中扭动手机两次，即可开启或关闭自拍模式</string>
+  <!-- Language & Input -->
+  <!-- Fullscreen Keyboard -->
+  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
+  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">渐强铃声音量</string>
@@ -175,13 +183,21 @@
   <string name="volume_adjust_sounds_title">音量调整提示音</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">充电提示音</string>
-  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">启用</string>
-  <string name="power_notifications_enable_summary">充电器连接或断开时播放提示音</string>
+  <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
+  <string name="power_notifications_conditions_title">Conditions</string>
+  <string name="power_notifications_conditions_none">None</string>
+  <string name="power_notifications_conditions_both">Connect and disconnect</string>
+  <string name="power_notifications_conditions_connect">Connect only</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">振动</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <string name="power_notifications_ringtone_title">通知提示音</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">静音</string>
+  <!-- Sound settings, custom charging sound, setting check box label -->
+  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <!-- Menu label for reset the battery stats -->
+  <string name="menu_stats_reset">Reset stats</string>
+  <!-- Reset stats confirmation dialog's message -->
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>
