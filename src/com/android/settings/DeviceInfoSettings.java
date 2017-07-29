@@ -74,7 +74,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     // CVE-2017-7184: xfrm_replay_verify_len
     // CVE-2016-8655: Linux AF_PACKET race condition
     // AndroidID-30403356: external/llvm: -fstack-protector-strong slot ordering broken with alloca/VLAs
-    private static final String SECURITY_PATCH_EXTRA = "CVE-2017-7184\nCVE-2016-8655\nAndroidID-30403356";
+    // AndroidID-37160362: buffer overflow in bluetooth stack
+    private static final String SECURITY_PATCH_EXTRA = "CVE-2017-7184\nCVE-2016-8655\nAndroidID-30403356\nAndroidID-37160362";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
