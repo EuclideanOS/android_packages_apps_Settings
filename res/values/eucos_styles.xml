@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 The Pure Nexus Project
+<!-- Copyright (C) 2017 Euclidean OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,9 +14,13 @@
      limitations under the License.
 -->
 <resources>
-    <dimen name="dashboard_category_padding_bottom">8dip</dimen>
+    <style name="Theme.DateTimeSettingsSetupWizard" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar" />
 
-    <!-- AOSPA Color engine -->
-    <dimen name="theme_preview_actionbar_size">15dp</dimen>
-    <dimen name="theme_color_margin_side">20dp</dimen>
+    <style name="Theme.AppPicker" parent="@android:style/Theme.DeviceDefault.Light.Dialog" />
+
+    <style name="Theme.SettingsDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar" />
+
+    <style name="Theme.SettingsAlertDialog" parent="@*android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+
+    <style name="Theme.VoiceActivity" parent="@*android:style/Theme.DeviceDefault.Light.Voice" />
 </resources>
