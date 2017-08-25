@@ -173,7 +173,7 @@ public abstract class PreviewSeekBarPreferenceFragment extends SettingsPreferenc
             mAccentShowing = Settings.Secure.getInt(getContext().getContentResolver(),
                     Settings.Secure.THEME_SETTINGS_MODE, 1) == 1;
             mAccentColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
-                    Settings.Secure.THEME_ACCENT_COLOR, 1);
+                    Settings.Secure.THEME_ACCENT_COLOR, 3);
             mPrimaryColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
                     Settings.Secure.THEME_PRIMARY_COLOR, 2);
             final int[] accentColors = getContext().getResources().getIntArray(
