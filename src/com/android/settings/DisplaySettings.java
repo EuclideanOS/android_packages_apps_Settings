@@ -238,7 +238,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mThemePreference = (ThemePreference) findPreference(KEY_THEME);
         if (mThemePreference != null) {
             final int accentColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
-                    Settings.Secure.THEME_ACCENT_COLOR, 1);
+                    Settings.Secure.THEME_ACCENT_COLOR, 3);
             final int primaryColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
                     Settings.Secure.THEME_PRIMARY_COLOR, 2);
             mThemePreference.setSummary(PreviewSeekBarPreferenceFragment.getInfoText(getContext(),
@@ -430,7 +430,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
         if (mThemePreference != null) {
             final int accentColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
-                    Settings.Secure.THEME_ACCENT_COLOR, 1);
+                    Settings.Secure.THEME_ACCENT_COLOR, 3);
             final int primaryColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
                     Settings.Secure.THEME_PRIMARY_COLOR, 2);
             mThemePreference.setSummary(PreviewSeekBarPreferenceFragment.getInfoText(getContext(),
@@ -510,7 +510,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         if (mThemePreference != null) {
             final int accentColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
-                    Settings.Secure.THEME_ACCENT_COLOR, 1);
+                    Settings.Secure.THEME_ACCENT_COLOR, 3);
             final int primaryColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
                     Settings.Secure.THEME_PRIMARY_COLOR, 2);
             mThemePreference.setSummary(PreviewSeekBarPreferenceFragment.getInfoText(getContext(),
